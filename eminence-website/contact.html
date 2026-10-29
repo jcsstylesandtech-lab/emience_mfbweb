@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Eminence Microfinance Bank</title>
+  <meta name="description" content="Get in touch with Eminence Microfinance Bank — call, email, visit a branch or send us a message.">
+  <meta name="theme-color" content="#022244">
+  <link rel="icon" type="image/webp" href="assets/img/eminence-icon.webp">
+  <link rel="apple-touch-icon" href="assets/img/eminence-icon.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero-split" aria-labelledby="hero-title">
+      <div class="container">
+        <div>
+          <ol class="breadcrumb reveal"><li><a href="index.html">Home</a></li><li><i data-lucide="chevron-right"></i></li><li aria-current="page">Contact Us</li></ol>
+          <span class="eyebrow eyebrow--gold reveal">Get in Touch with Eminence Microfinance Bank</span>
+          <h1 id="hero-title" class="reveal" style="--d:.08s">We Are <span class="accent">Here for You</span></h1>
+          <p class="reveal" style="--d:.16s">Whether you have a question, need support, or want to learn more about our products and services, our team is here to assist you.</p>
+          <div class="btn-row reveal" style="--d:.26s;margin-top:28px">
+            <a class="btn btn--primary" href="#message">Send Us a Message <i data-lucide="send"></i></a>
+            <a class="btn btn--ghost-light" href="services.html">Explore Our Services</a>
+          </div>
+        </div>
+        <div class="collage reveal reveal--right" style="--d:.2s">
+          <img class="c1" src="assets/img/svc-agency.jpg" alt="Eminence staff member in a hijab assisting a customer">
+          <img class="c2" src="assets/img/acc-current.jpg" alt="Customer in a hijab on her phone">
+          <img class="c3" src="assets/img/svc-business.jpg" alt="Eminence team member in a hijab at a laptop">
+          <div class="badge-float"><i data-lucide="headset"></i><div>Customer Support<small>Ready to help with your enquiry</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT CARDS -->
+    <section class="section section--soft" style="padding-top:56px;padding-bottom:56px" aria-labelledby="info-title">
+      <div class="container">
+        <h2 id="info-title" class="sr-only">Contact information</h2>
+        <div class="grid grid-4" data-stagger>
+          <article class="contact-card reveal"><span class="ic-circle"><i data-lucide="phone-call"></i></span><div><h3>Call Us</h3>
+            <p data-config="phone"></p><p class="placeholder-text" data-config="altPhone" style="font-size:13px"></p><p style="font-size:13px;color:var(--muted)">Hours: <span data-config="hours"></span></p></div></article>
+          <article class="contact-card reveal"><span class="ic-circle ic-circle--teal"><i data-lucide="mail"></i></span><div><h3>Email Us</h3>
+            <p><a href="mailto:info@eminencemfb.com">info@eminencemfb.com</a></p><p class="placeholder-text" data-config="supportEmail" style="font-size:13px"></p></div></article>
+          <article class="contact-card reveal"><span class="ic-circle"><i data-lucide="map-pin"></i></span><div><h3>Visit Us</h3>
+            <p data-config="address"></p><p data-config="location"></p></div></article>
+          <article class="contact-card reveal"><span class="ic-circle ic-circle--teal"><i data-lucide="message-circle"></i></span><div><h3>Live Chat</h3>
+            <p>A verified live-chat or messaging channel will be listed here, with its operating hours, once available.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FORM + HEAD OFFICE -->
+    <section class="section" id="message" aria-labelledby="form-title">
+      <div class="container contact-layout">
+        <div class="panel reveal reveal--left">
+          <span class="eyebrow">Send Us a Message</span>
+          <h2 id="form-title" class="h-sub">Use this form to send an enquiry to the Bank</h2>
+          <p style="font-size:14.5px">Fields marked <span style="color:var(--danger)">*</span> are required. Please never include your PIN, password, OTP or full card number.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="field"><label for="f-name">Full Name <span class="req">*</span></label><input id="f-name" name="name" type="text" autocomplete="name" required><p class="err" role="alert"></p></div>
+              <div class="field"><label for="f-email">Email Address <span class="req">*</span></label><input id="f-email" name="email" type="email" autocomplete="email" required><p class="err" role="alert"></p></div>
+              <div class="field"><label for="f-phone">Phone Number</label><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder="+234"><p class="err" role="alert"></p></div>
+              <div class="field"><label for="f-subject">Subject <span class="req">*</span></label>
+                <select id="f-subject" name="subject" required>
+                  <option value="">Choose a subject</option>
+                  <option>Open an Account</option>
+                  <option>Personal Banking</option>
+                  <option>Business Banking</option>
+                  <option>Business Financing enquiry</option>
+                  <option>Sharia-Compliant Banking</option>
+                  <option>Internet / Mobile Banking support</option>
+                  <option>Card services</option>
+                  <option>Complaint or feedback</option>
+                  <option>Other enquiry</option>
+                </select><p class="err" role="alert"></p></div>
+              <div class="field full"><label for="f-message">Message <span class="req">*</span></label><textarea id="f-message" name="message" required></textarea><p class="err" role="alert"></p></div>
+              <div class="full" style="position:absolute;left:-9999px" aria-hidden="true"><label for="f-website">Website</label><input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
+              <div class="full field"><label class="consent"><input type="checkbox" name="consent" required><span>I have read the <a href="privacy.html">Privacy Policy</a> and understand that the information I submit will be used only to respond to my enquiry and kept in line with applicable Nigerian data protection law.</span></label><p class="err" role="alert" style="color:var(--danger);font-size:12.5px"></p></div>
+            </div>
+            <button type="submit" class="btn btn--primary" style="margin-top:18px">Send Message <i data-lucide="send"></i></button>
+            <div class="form-status" aria-live="polite"></div>
+          </form>
+        </div>
+
+        <aside class="reveal reveal--right" aria-labelledby="office-title">
+          <div class="office-card">
+            <img src="assets/img/home-hero.jpg" alt="Eminence branch with a smiling staff member in a hijab" loading="lazy">
+            <div class="body">
+              <h3 id="office-title">Our Head Office</h3>
+              <ul>
+                <li><i data-lucide="map-pin"></i><span><span data-config="address"></span>, <span data-config="location"></span></span></li>
+                <li><i data-lucide="phone"></i><span data-config="phone"></span></li>
+                <li><i data-lucide="mail"></i><a href="mailto:info@eminencemfb.com">info@eminencemfb.com</a></li>
+                <li><i data-lucide="clock"></i><span data-config="hours"></span></li>
+              </ul>
+              <a class="btn btn--navy btn--block" href="#" data-soon="Directions will be available once the verified head-office location is published.">Get Directions <i data-lucide="navigation"></i></a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- BRANCHES -->
+    <section class="section section--soft" id="branches" aria-labelledby="br-title">
+      <div class="container split">
+        <div class="reveal reveal--left">
+          <span class="eyebrow">Our Branches</span>
+          <h2 id="br-title" class="h-section">Find a Branch or Authorised Service Location</h2>
+          <p>Find a branch or authorised agent location near you. Only verified branch addresses and operating hours will be shown here.</p>
+          <a class="btn btn--primary" href="#" data-soon="The verified branch and agent list will be published soon.">View All Branches <i data-lucide="arrow-right"></i></a>
+        </div>
+        <div class="map-box reveal reveal--right">
+          <div><i data-lucide="map"></i><h3 style="color:var(--navy);margin-top:12px">Branch map coming soon</h3><p style="margin:0;font-size:14px">A verified Google Maps location will be embedded here.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OTHER WAYS -->
+    <section class="section" id="support" aria-labelledby="sup-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><span class="eyebrow">Other Ways to Reach Us</span><h2 id="sup-title" class="h-section">Help for Specific Needs</h2></div>
+          <p>Choose the option that best matches what you need, and our team will guide you through the next steps.</p>
+        </div>
+        <div class="grid grid-4" data-stagger>
+          <article class="pillar reveal"><span class="ic-circle ic-circle--teal"><i data-lucide="monitor"></i></span><h3>Internet Banking Support</h3><p>Help with supported online banking services.</p><a class="link-arrow" style="margin-top:14px" href="contact.html?subject=Internet%20%2F%20Mobile%20Banking%20support#message">Get help <i data-lucide="arrow-right"></i></a></article>
+          <article class="pillar reveal"><span class="ic-circle ic-circle--teal"><i data-lucide="smartphone"></i></span><h3>Mobile Banking Support</h3><p>Assistance with the official mobile banking platform, where available.</p><a class="link-arrow" style="margin-top:14px" href="contact.html?subject=Internet%20%2F%20Mobile%20Banking%20support#message">Get help <i data-lucide="arrow-right"></i></a></article>
+          <article class="pillar reveal" style="border-color:#f1c7c7"><span class="ic-circle" style="background:var(--danger)"><i data-lucide="credit-card"></i></span><h3>Report a Lost or Stolen Card</h3><p>Call our verified support line immediately: <strong data-config="phone"></strong>. The Bank's emergency card-reporting instructions will be published here.</p></article>
+          <article class="pillar reveal"><span class="ic-circle ic-circle--teal"><i data-lucide="message-circle"></i></span><h3>Complaints and Feedback</h3><p>Submit a complaint or feedback through this form and receive updates through your preferred contact details.</p><a class="link-arrow" style="margin-top:14px" href="contact.html?subject=Complaint%20or%20feedback#message">Submit a complaint <i data-lucide="arrow-right"></i></a></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--soft" id="faqs" aria-labelledby="faq-title">
+      <div class="container split" style="align-items:start">
+        <div class="reveal reveal--left">
+          <span class="eyebrow">Frequently Asked Questions</span>
+          <h2 id="faq-title" class="h-section">Quick Answers</h2>
+          <p>Answers are based on the Bank's support processes. Where a detail is still being confirmed, please contact our team directly.</p>
+          <a class="btn btn--outline" href="#message">Still need help? Message us</a>
+        </div>
+        <div class="faq reveal reveal--right" data-single>
+          <details open><summary>What are your working hours?</summary><div class="faq__a"><p>Our confirmed working hours are: <span data-config="hours"></span>.</p></div></details>
+          <details><summary>How can I open an account?</summary><div class="faq__a"><p>Follow the Bank's official account-opening process and provide the identification and verification information required for your account type. You can start by choosing <a href="#" data-open-account>Open an Account</a>.</p></div></details>
+          <details><summary>Where are your branches located?</summary><div class="faq__a"><p>Verified branch and agent locations will be listed in the <a href="#branches">Branch Locator</a> section.</p></div></details>
+          <details><summary>How do I contact customer support?</summary><div class="faq__a"><p>Call <span data-config="phone"></span>, email <a href="mailto:info@eminencemfb.com">info@eminencemfb.com</a>, or use the message form on this page.</p></div></details>
+          <details><summary>Can I get help with Internet Banking?</summary><div class="faq__a"><p>Yes. Choose “Internet / Mobile Banking support” as the subject in the message form, or call customer support. Always access Internet Banking through the verified link on this website.</p></div></details>
+          <details><summary>How do I report a lost or stolen card?</summary><div class="faq__a"><p>Contact customer support immediately on <span data-config="phone"></span> so your card can be blocked. Never share your PIN or OTP with anyone, including bank staff.</p></div></details>
+          <details><summary>How long does it take to receive a response?</summary><div class="faq__a"><p>Response times depend on the nature of your enquiry. The Bank's confirmed service timelines will be published here.</p></div></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container cta__inner reveal">
+        <div>
+          <h2 id="cta-title">Let's Talk About Your Goals</h2>
+          <p>Whether you are exploring personal banking, business financing, or Sharia-compliant solutions, contact our team to learn about available options.</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn btn--primary" href="#" data-open-account>Open an Account <i data-lucide="arrow-right"></i></a>
+          <a class="btn btn--ghost-light" href="#message">Speak to Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+  <script src="assets/js/vendor/lenis.min.js"></script>
+  <script src="assets/js/vendor/lucide.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
